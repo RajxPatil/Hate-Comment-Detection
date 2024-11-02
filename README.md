@@ -2,6 +2,12 @@
 
 **Hate Comment Detection (H2H)** is a system designed to analyze tweets and predict if they contain toxic, severe toxic, obscene, threatening, insulting, or identity hate content. This project helps to identify and flag harmful content on social media, promoting healthier and safer online interactions.
 
+## Technologies Used
+- **Python**: Core language for implementing data processing and model training.
+- **TensorFlow**: Framework for building and training the neural network models.
+- **PyTorch**: Alternative framework used for neural network implementation.
+- **Sentence-Transformers**: Used for embedding extraction, specifically the `all-mpnet-base-v2` model.
+
 ## Features
 - Developed a multi-classification model to categorize tweets into five hate categories, enhancing platform safety.
 - Trained an 11-layer neural network on over 150,000 data points, using sentence embeddings from `sentence-transformers/all-mpnet-base-v2`.
