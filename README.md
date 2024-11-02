@@ -50,7 +50,7 @@ The accuracy and precision can be further tuned by adjusting the model's archite
 H2H 1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 106ms/step tweet:
 "I'll kill you" 
 Toxic: True 
-True severe_toxic: False
+Severe_toxic: False
 Obscene: False 
 Threat: False 
 Insult: False 
